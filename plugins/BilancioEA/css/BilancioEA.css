@@ -1,0 +1,12 @@
+		.modal-body > span {
+			color: #F44336;
+		}
+		.modal-body {
+			font-size: 18px;
+		}
+		a#btn-exit-exercise:hover {
+			 background-color: #e61c0e !important; 
+		}
+		a#btn-exit-exercise {
+			 background-color: #fb2617; 
+		}

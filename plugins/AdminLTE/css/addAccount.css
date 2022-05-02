@@ -1,0 +1,6 @@
+@media screen and (max-width: 767px) {
+    #addAccountBtn{
+        width: 100% !important;
+        margin-top: 3%;
+    }
+}

@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class Exercise_Manager | BilancioEA</title>
+
+	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
+	<link rel="stylesheet" href="resources/style.css?70c1d062672daa3f906b72e4f5d03d4bc5c4174d">
+
+</head>
+
+<body>
+	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand">BilancioEA</a>
+			</div>
+			<div class="collapse navbar-collapse">
+
+                <form id="search" class="navbar-form navbar-left" role="search">
+                    <input type="hidden" name="cx" value="">
+                    <input type="hidden" name="ie" value="UTF-8">
+                    <div class="form-group">
+                        <input type="text" name="q" class="search-query form-control" placeholder="Search">
+					</div>
+				</form>
+
+				<ul class="nav navbar-nav">
+					<li class="active">
+<span>Class</span>					</li>
+
+					<li class="divider-vertical"></li>
+
+					<li>
+						<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+					</li>
+
+						<li>
+							<a href="annotation-group-todo.html" title="List of elements with todo annotation">
+								<span>Todo</span>
+							</a>
+						</li>
+
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="left">
+	<div id="menu">
+
+		<div id="groups">
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Balance_Account_Manager.html">Balance_Account_Manager</a></li>
+				<li><a href="class-Balance_Row_Manager.html">Balance_Row_Manager</a></li>
+				<li><a href="class-BalanceAccount.html">BalanceAccount</a></li>
+				<li><a href="class-BalanceCategory.html">BalanceCategory</a></li>
+				<li><a href="class-BalancePrintUtils.html">BalancePrintUtils</a></li>
+				<li><a href="class-BalanceRow.html">BalanceRow</a></li>
+				<li><a href="class-BalanceSheetManager.html">BalanceSheetManager</a></li>
+				<li><a href="class-BilancioEA.html">BilancioEA</a></li>
+				<li><a href="class-Category_Manager.html">Category_Manager</a></li>
+				<li><a href="class-Database.html">Database</a></li>
+				<li class="active"><a href="class-Exercise_Manager.html">Exercise_Manager</a></li>
+				<li><a href="class-IncomeStatementManager.html">IncomeStatementManager</a></li>
+				<li><a href="class-indexManager.html">indexManager</a></li>
+				<li><a href="class-ReworkedBalanceSheetManager.html">ReworkedBalanceSheetManager</a></li>
+				<li><a href="class-reworkedIncomeStatementManager.html">reworkedIncomeStatementManager</a></li>
+				<li><a href="class-User_Account_Manager.html">User_Account_Manager</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class Exercise_Manager</h1>
+
+
+	<div class="description">
+	<p>Classe che gestisce gli esercizi</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		
+		
+
+				<b>License:</b>
+				<a href="http://opensource.org/licenses/gpl-license.php">GNU Public License</a><br>
+				<b>Author:</b>
+				Gianlorenzo Occhipinti <a href="&#x6d;&#97;&#105;&#x6c;&#x74;&#111;&#58;&#x67;&#x69;&#97;&#110;&#x6c;&#x6f;&#114;&#101;&#x6e;&#x7a;&#111;&#46;&#x6f;&#x63;&#99;&#104;&#x69;&#x70;&#105;&#110;&#x74;&#x69;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#109;">&#x67;&#x69;&#97;&#110;&#x6c;&#x6f;&#114;&#101;&#x6e;&#x7a;&#111;&#46;&#x6f;&#x63;&#99;&#104;&#x69;&#x70;&#105;&#110;&#x74;&#x69;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#109;</a><br>
+				<b>Link:</b>
+				<a href="http://data.baeproject.eu/BilancioEA">Home del progetto</a><br>
+			<b>Located at</b> <a href="source-class-Exercise_Manager.html#5-275" title="Go to source code">core/Manager/Exercise_Manager.php</a>
+		<br>
+	</div>
+
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading"><h2>Methods summary</h2></div>
+			<table class="summary table table-bordered table-striped methods" id="methods">
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___construct">#</a>
+			<code><a href="source-class-Exercise_Manager.html#14-24" title="Go to source code">__construct</a>( <span><code><a href="class-BilancioEA.html">BilancioEA</a></code> <var>$balance_object</var></span> )</code>
+
+			<div class="description short">
+				<p>Funzione per settare un nuovo esercizio corrente</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Funzione per settare un nuovo esercizio corrente</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$balance_object</var></dt>
+						<dd>oggetto del bilancio</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setUserExercise" id="_setUserExercise">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setUserExercise">#</a>
+			<code><a href="source-class-Exercise_Manager.html#27-62" title="Go to source code">setUserExercise</a>( <span>string <var>$exercise_id</var></span> )</code>
+
+			<div class="description short">
+				<p>Funzione per settare un nuovo esercizio corrente</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Funzione per settare un nuovo esercizio corrente</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$exercise_id</var></dt>
+						<dd>ID dell'esercizio</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean<br>se il settaggio ha avuto successo o meno
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getUserExercise" id="_getUserExercise">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getUserExercise">#</a>
+			<code><a href="source-class-Exercise_Manager.html#65-76" title="Go to source code">getUserExercise</a>( )</code>
+
+			<div class="description short">
+				<p>Funzione per conoscere l'ID dell'esercizio corrente</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Funzione per conoscere l'ID dell'esercizio corrente</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string<br>ID dell'esercizio
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setExercisePropriety" id="_setExercisePropriety">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setExercisePropriety">#</a>
+			<code><a href="source-class-Exercise_Manager.html#79-88" title="Go to source code">setExercisePropriety</a>( <span>string <var>$proprietyName</var></span>, <span>string <var>$proprietyValue</var></span> )</code>
+
+			<div class="description short">
+				<p>Funzione per settare la proprietà di un esercizio</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Funzione per settare la proprietà di un esercizio</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$proprietyName</var></dt>
+						<dd>nome proprietà</dd>
+						<dt><var>$proprietyValue</var></dt>
+						<dd>valore proprietà</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getExerciseProperties" id="_getExerciseProperties">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getExerciseProperties">#</a>
+			<code><a href="source-class-Exercise_Manager.html#91-102" title="Go to source code">getExerciseProperties</a>( <span>string <var>$exercise_id</var></span> )</code>
+
+			<div class="description short">
+				<p>Funzione per che ritorna le proprietà di un esercizio</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Funzione per che ritorna le proprietà di un esercizio</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$exercise_id</var></dt>
+						<dd>$proprietyName nome proprietà</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						array<br>proprietà dell'esercizio
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="addExercisePropriety" id="_addExercisePropriety">
+
+			<td class="attributes"><code>
+				 public 
+				boolead
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_addExercisePropriety">#</a>
+			<code><a href="source-class-Exercise_Manager.html#105-120" title="Go to source code">addExercisePropriety</a>( <span>string <var>$exercise_id</var></span>, <span>string <var>$proprietyName</var></span>, <span>string <var>$proprietyValue</var></span> )</code>
+
+			<div class="description short">
+				<p>Funzione per salvare la proprietà di un esercizio</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Funzione per salvare la proprietà di un esercizio</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$exercise_id</var></dt>
+						<dd>id esercizio</dd>
+						<dt><var>$proprietyName</var></dt>
+						<dd>nome proprietà</dd>
+						<dt><var>$proprietyValue</var></dt>
+						<dd>valore proprietà</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolead<br>successo dell'inserimento
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getAllUserExercise" id="_getAllUserExercise">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getAllUserExercise">#</a>
+			<code><a href="source-class-Exercise_Manager.html#123-131" title="Go to source code">getAllUserExercise</a>( )</code>
+
+			<div class="description short">
+				<p>Funzione per sapere tutti gli esercizi previsti</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Funzione per sapere tutti gli esercizi previsti</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						array<br>contenente tutti gli esercizi
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="generateQRCode" id="_generateQRCode">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_generateQRCode">#</a>
+			<code><a href="source-class-Exercise_Manager.html#134-147" title="Go to source code">generateQRCode</a>( <span> <var>$exercise_id</var></span> )</code>
+
+			<div class="description short">
+				<p>Funzione per generare il QRCODE nella cartella /utils/QRcode/exerciseQR_00.png</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Funzione per generare il QRCODE nella cartella /utils/QRcode/exerciseQR_00.png</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$exercise_id</var></dt>
+						<dd>esercizio</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getExercise" id="_getExercise">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getExercise">#</a>
+			<code><a href="source-class-Exercise_Manager.html#150-158" title="Go to source code">getExercise</a>( <span>string <var>$exercise_id</var></span> )</code>
+
+			<div class="description short">
+				<p>Funzione per sapere un determinato esercizio</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Funzione per sapere un determinato esercizio</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$exercise_id</var></dt>
+						<dd>ID dell'esercizio</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						array<br>contenente tutte le informazioni sull'esercizio
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getUserExerciseID" id="_getUserExerciseID">
+
+			<td class="attributes"><code>
+				 public 
+				string,false
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getUserExerciseID">#</a>
+			<code><a href="source-class-Exercise_Manager.html#161-170" title="Go to source code">getUserExerciseID</a>( )</code>
+
+			<div class="description short">
+				<p>Funzione per sapere l' ID dell'esercizio attualmente selezionato</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Funzione per sapere l' ID dell'esercizio attualmente selezionato</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string,false<br>ritorna l'id se c'è un esercizio selezionato altrimenti ritorna false
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="resetUserExercise" id="_resetUserExercise">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_resetUserExercise">#</a>
+			<code><a href="source-class-Exercise_Manager.html#173-181" title="Go to source code">resetUserExercise</a>( )</code>
+
+			<div class="description short">
+				<p>Funzione per deselezionare l'esercizio corrente</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Funzione per deselezionare l'esercizio corrente</p>
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="authManagerKey" id="_authManagerKey">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_authManagerKey">#</a>
+			<code><a href="source-class-Exercise_Manager.html#184-194" title="Go to source code">authManagerKey</a>( <span>string <var>$managerKey</var></span> )</code>
+
+			<div class="description short">
+				<p>Funzione per autenticare la chiave per la modifica dei dati</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Funzione per autenticare la chiave per la modifica dei dati</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$managerKey</var></dt>
+						<dd>$manager_key chiave d'autenticazione</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean<br>successo dell'autenticazione
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="deauthManagerKey" id="_deauthManagerKey">
+
+			<td class="attributes"><code>
+				 public 
+				true
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_deauthManagerKey">#</a>
+			<code><a href="source-class-Exercise_Manager.html#197-204" title="Go to source code">deauthManagerKey</a>( )</code>
+
+			<div class="description short">
+				<p>Funzione per deautenticare la chiave</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Funzione per deautenticare la chiave</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						true<br>sucesso dell'operazione
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="isAuth" id="_isAuth">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_isAuth">#</a>
+			<code><a href="source-class-Exercise_Manager.html#207-217" title="Go to source code">isAuth</a>( )</code>
+
+			<div class="description short">
+				<p>Funzione sapere se l'utente è autenticato o no</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Funzione sapere se l'utente è autenticato o no</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean<br>se l'utente è autenticato per modificare gli esercizi o meno
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="deleteUserExercise" id="_deleteUserExercise">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_deleteUserExercise">#</a>
+			<code><a href="source-class-Exercise_Manager.html#221-231" title="Go to source code">deleteUserExercise</a>( <span>string <var>$exercise_id</var></span> )</code>
+
+			<div class="description short">
+				<p>Funzione per eliminare un'esercizio dal db</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Funzione per eliminare un'esercizio dal db</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$exercise_id</var></dt>
+						<dd>id dell'esercizio da eliminare</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean<br>successo dell'operazione
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="createUserExercise" id="_createUserExercise">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_createUserExercise">#</a>
+			<code><a href="source-class-Exercise_Manager.html#235-254" title="Go to source code">createUserExercise</a>( <span>string <var>$exercise_id</var></span>, <span>integer <var>$exercise_page</var></span>, <span>integer <var>$exercise_difficulty</var></span>, <span>string <var>$exercise_note</var></span> )</code>
+
+			<div class="description short">
+				<p>Funzione per creare un'esercizio nel db</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Funzione per creare un'esercizio nel db</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$exercise_id</var></dt>
+						<dd>id esercizio</dd>
+						<dt><var>$exercise_page</var></dt>
+						<dd>pagina dell'esercizio</dd>
+						<dt><var>$exercise_difficulty</var></dt>
+						<dd>difficoltà dell'esercizio</dd>
+						<dt><var>$exercise_note</var></dt>
+						<dd>note dell'esercizio</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean<br>successo dell'operazione
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="editUserExercise" id="_editUserExercise">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_editUserExercise">#</a>
+			<code><a href="source-class-Exercise_Manager.html#258-271" title="Go to source code">editUserExercise</a>( <span>string <var>$exercise_id</var></span>, <span>integer <var>$exercise_page</var></span>, <span>integer <var>$exercise_difficulty</var></span>, <span>string <var>$exercise_note</var></span> )</code>
+
+			<div class="description short">
+				<p>Funzione per modificare un'esercizio nel db</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Funzione per modificare un'esercizio nel db</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$exercise_id</var></dt>
+						<dd>id esercizio</dd>
+						<dt><var>$exercise_page</var></dt>
+						<dd>pagina dell'esercizio</dd>
+						<dt><var>$exercise_difficulty</var></dt>
+						<dd>difficoltà dell'esercizio</dd>
+						<dt><var>$exercise_note</var></dt>
+						<dd>note dell'esercizio</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean<br>successo dell'operazione
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+			</table>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		BilancioEA API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

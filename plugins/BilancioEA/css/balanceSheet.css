@@ -1,0 +1,47 @@
+.balance-sheet-title{
+    display: inline-block;
+}
+
+.balance-sheet-buttons{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 0;
+    float: right;
+}
+
+.balance-sheet-button{
+    display: inline-block;
+}
+
+.content{
+    padding-top: 20px !important;
+    overflow: auto;
+    width: 100%;
+}
+
+.balanceSheetSectionTitle{
+    text-align: center;
+}
+.table{
+    background-color: white;
+}
+.table-striped>tbody>tr:nth-of-type(odd){
+   background-color: #f9f9f9;;
+}
+.row_name{
+    width: 70%;
+}
+
+
+@media screen and (max-width: 767px) {
+    .balance-sheet-buttons{
+        width:100%;
+    }    
+    .balance-sheet-button{
+            margin-top: 3px;
+        width:100%;
+    }
+    .balance-she-btn{
+        width: 100%;
+    }
+}

@@ -1,0 +1,59 @@
+tr:hover{
+	color:red !important;
+}
+
+.modal_row_import{
+	text-align:right;
+	padding-right:10% !important;
+}
+
+.row_final, .row_super, .row_total{
+	 font-weight: bold;
+}
+
+.row_normal > td:nth-child(1), .row_total > td:nth-child(1){
+	padding-left: 3%;
+}
+
+.row_import{
+    text-align: right;
+}
+
+.row_child > td:nth-child(1){
+	padding-left: 6%;
+}
+
+.row_super_child > td:nth-child(1){
+	padding-left: 9%;
+}
+
+.row_final .row_import, .row_total .row_import{
+	border-bottom: 1px solid black;
+	position: relative;
+}
+
+.row_final .row_import::AFTER, .row_total .row_import::AFTER{
+	border-bottom: 1px solid black;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	content: "";
+	bottom: 2%;
+}
+
+.row_import{
+	text-align: center;
+}
+
+.row_name{
+	padding-left: 5px;
+}
+
+.row_char {
+	width: 1px;
+	padding-right: 0px;
+}
+
+.table-hover>tbody>tr:hover{
+	background-color: initial !important;
+}

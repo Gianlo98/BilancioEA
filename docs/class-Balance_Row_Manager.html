@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class Balance_Row_Manager | BilancioEA</title>
+
+	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
+	<link rel="stylesheet" href="resources/style.css?70c1d062672daa3f906b72e4f5d03d4bc5c4174d">
+
+</head>
+
+<body>
+	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand">BilancioEA</a>
+			</div>
+			<div class="collapse navbar-collapse">
+
+                <form id="search" class="navbar-form navbar-left" role="search">
+                    <input type="hidden" name="cx" value="">
+                    <input type="hidden" name="ie" value="UTF-8">
+                    <div class="form-group">
+                        <input type="text" name="q" class="search-query form-control" placeholder="Search">
+					</div>
+				</form>
+
+				<ul class="nav navbar-nav">
+					<li class="active">
+<span>Class</span>					</li>
+
+					<li class="divider-vertical"></li>
+
+					<li>
+						<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+					</li>
+
+						<li>
+							<a href="annotation-group-todo.html" title="List of elements with todo annotation">
+								<span>Todo</span>
+							</a>
+						</li>
+
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="left">
+	<div id="menu">
+
+		<div id="groups">
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Balance_Account_Manager.html">Balance_Account_Manager</a></li>
+				<li class="active"><a href="class-Balance_Row_Manager.html">Balance_Row_Manager</a></li>
+				<li><a href="class-BalanceAccount.html">BalanceAccount</a></li>
+				<li><a href="class-BalanceCategory.html">BalanceCategory</a></li>
+				<li><a href="class-BalancePrintUtils.html">BalancePrintUtils</a></li>
+				<li><a href="class-BalanceRow.html">BalanceRow</a></li>
+				<li><a href="class-BalanceSheetManager.html">BalanceSheetManager</a></li>
+				<li><a href="class-BilancioEA.html">BilancioEA</a></li>
+				<li><a href="class-Category_Manager.html">Category_Manager</a></li>
+				<li><a href="class-Database.html">Database</a></li>
+				<li><a href="class-Exercise_Manager.html">Exercise_Manager</a></li>
+				<li><a href="class-IncomeStatementManager.html">IncomeStatementManager</a></li>
+				<li><a href="class-indexManager.html">indexManager</a></li>
+				<li><a href="class-ReworkedBalanceSheetManager.html">ReworkedBalanceSheetManager</a></li>
+				<li><a href="class-reworkedIncomeStatementManager.html">reworkedIncomeStatementManager</a></li>
+				<li><a href="class-User_Account_Manager.html">User_Account_Manager</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class Balance_Row_Manager</h1>
+
+
+	<div class="description">
+	<p>Classe che gestisce le righe del bilancio d'esercizio</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		
+		
+
+				<b>License:</b>
+				<a href="http://opensource.org/licenses/gpl-license.php">GNU Public License</a><br>
+				<b>Author:</b>
+				Gianlorenzo Occhipinti <a href="&#x6d;&#97;&#105;&#x6c;&#x74;&#111;&#58;&#x67;&#x69;&#97;&#110;&#x6c;&#x6f;&#114;&#101;&#x6e;&#x7a;&#111;&#46;&#x6f;&#x63;&#99;&#104;&#x69;&#x70;&#105;&#110;&#x74;&#x69;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#109;">&#x67;&#x69;&#97;&#110;&#x6c;&#x6f;&#114;&#101;&#x6e;&#x7a;&#111;&#46;&#x6f;&#x63;&#99;&#104;&#x69;&#x70;&#105;&#110;&#x74;&#x69;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#109;</a><br>
+				<b>Link:</b>
+				<a href="http://data.baeproject.eu/BilancioEA">Home del progetto</a><br>
+			<b>Located at</b> <a href="source-class-Balance_Row_Manager.html#7-203" title="Go to source code">core/Manager/Balance_Row_Manager.php</a>
+		<br>
+	</div>
+
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading"><h2>Methods summary</h2></div>
+			<table class="summary table table-bordered table-striped methods" id="methods">
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___construct">#</a>
+			<code><a href="source-class-Balance_Row_Manager.html#17-56" title="Go to source code">__construct</a>( <span><code><a href="class-BilancioEA.html">BilancioEA</a></code> <var>$balance</var></span> )</code>
+
+			<div class="description short">
+				<p>Funzione per settare un nuovo esercizio corrente</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Funzione per settare un nuovo esercizio corrente</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$balance</var></dt>
+						<dd>$balance_object oggetto del bilancio</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getRowAccounts" id="_getRowAccounts">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getRowAccounts">#</a>
+			<code><a href="source-class-Balance_Row_Manager.html#64-82" title="Go to source code">getRowAccounts</a>( <span> <var>$row_id</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getUserRowAccounts" id="_getUserRowAccounts">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getUserRowAccounts">#</a>
+			<code><a href="source-class-Balance_Row_Manager.html#90-106" title="Go to source code">getUserRowAccounts</a>( <span> <var>$row_id</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getAccountArrayImport" id="_getAccountArrayImport">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getAccountArrayImport">#</a>
+			<code><a href="source-class-Balance_Row_Manager.html#114-133" title="Go to source code">getAccountArrayImport</a>( <span> <var>$accountArray</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getRow" id="_getRow">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getRow">#</a>
+			<code><a href="source-class-Balance_Row_Manager.html#141-143" title="Go to source code">getRow</a>( <span> <var>$row_id</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getIncomeStatmentRows" id="_getIncomeStatmentRows">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getIncomeStatmentRows">#</a>
+			<code><a href="source-class-Balance_Row_Manager.html#151-162" title="Go to source code">getIncomeStatmentRows</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getBalanceSheetRows" id="_getBalanceSheetRows">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getBalanceSheetRows">#</a>
+			<code><a href="source-class-Balance_Row_Manager.html#170-181" title="Go to source code">getBalanceSheetRows</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+			</table>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		BilancioEA API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>
